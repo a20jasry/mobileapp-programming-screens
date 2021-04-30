@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
                 Log.d("LOGIN", "starta aktiviteten");
 
                 Intent intent = new Intent(LoginActivity. this, MainActivity.class);
-                intent.putExtra("name", "Jason");
+                intent.putExtra("name", "Hello!");
                 startActivity(intent);
 
             }
