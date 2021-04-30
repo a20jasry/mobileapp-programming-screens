@@ -17,11 +17,11 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-        Button button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button open = findViewById(R.id.open);
+        open.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("TAG", "starta aktiviteten");
+                Log.d("LOGIN", "starta aktiviteten");
 
                 Intent intent = new Intent(LoginActivity. this, MainActivity.class);
                 startActivity(intent);
