@@ -17,20 +17,23 @@
 
         <fragment
             android:name="com.example.screens.BlankFragment"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:tag="blank_fragment"/>
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:tag="blank_fragment" />
 
         <TextView
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
             android:text="Hello World!"/>
 
         <Button
             android:id="@+id/close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text=" Stäng Main"/>
 
     </LinearLayout>
